@@ -8,5 +8,5 @@ version          '0.1.0'
 
 recipe 'default', "Install/Configure wo-site"
 
-depends 'wordpress'
+depends 'wordpress', "= 1.2.2"
 depends 'chef-newrelic-sysmond'
