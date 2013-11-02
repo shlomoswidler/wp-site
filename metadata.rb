@@ -10,3 +10,4 @@ recipe 'default', "Install/Configure wo-site"
 
 depends 'wordpress', "= 1.2.2"
 depends 'chef-newrelic-sysmond'
+depends 'apache2', '= 0.9'
