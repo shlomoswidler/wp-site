@@ -28,6 +28,13 @@ Upload the artifact to S3 (this is the S3 location specified in the OpsWorks sta
     
 The corresponding S3 location for the cookbook tarball would be `https://s3-us-west-2.amazonaws.com/up.shlomoswidler.com/cookbooks.tar.gz`
 
+To clean the cookbook bundle (so you can recreate the bundle from scratch (getting updated cookbooks from their sources)),
+do this:
+
+    rm -rf cookbook* Berkfile.lock
+
+Then continue with the `berks install...` command above.
+
 ### Note
 For some reason there is [a bug][2] in Berkshelf that prevents it from ignoring the cookbooks in the `--except` specification. The result is that the cookbook collection will contain cookbooks that duplicate OpsWorks built-in cookbooks. However, this should not matter, since the duplicates in this bundle will not be visible because OpsWorks puts its own in the path first.
 
