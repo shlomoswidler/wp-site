@@ -31,7 +31,7 @@ The corresponding S3 location for the cookbook tarball would be `https://s3-us-w
 To clean the cookbook bundle (so you can recreate the bundle from scratch (getting updated cookbooks from their sources)),
 do this:
 
-    rm -rf cookbook* Berkfile.lock
+    rm -rf cookbook* Berksfile.lock
 
 Then continue with the `berks install...` command above.
 
