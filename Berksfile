@@ -11,4 +11,3 @@ cookbook 'shlomo-newrelic', github: 'shlomoswidler/shlomo-newrelic'
 
 cookbook 'wordpress', github: 'opscode-cookbooks/wordpress'
 cookbook 'newrelic-sysmond', github: 'phlipper/chef-newrelic-sysmond'
-cookbook 'annoyances', github: 'mattray/annoyances-cookbook'
