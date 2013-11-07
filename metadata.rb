@@ -8,6 +8,8 @@ version          '0.1.0'
 
 recipe 'default', "Install/Configure wp-site"
 
+supports "ubuntu"
+
 depends 'shlomo-wordpress', "= 0.1.0"
 depends 'shlomo-newrelic', "= 0.1.0"
 depends 'apache2', '= 0.9'
