@@ -5,8 +5,10 @@ metadata
 cookbook 'apache2', group: :opsworks_builtin
 cookbook 'mysql', group: :opsworks_builtin
 
-cookbook 'wordpress', github: 'opscode-cookbooks/wordpress'
+cookbook 'awscli', github: 'shlomoswidler/awscli'
 cookbook 'shlomo-wordpress', github: 'shlomoswidler/shlomo-wordpress'
 cookbook 'shlomo-newrelic', github: 'shlomoswidler/shlomo-newrelic'
-cookbook 'awscli', github: 'shlomoswidler/awscli'
+
+cookbook 'wordpress', github: 'opscode-cookbooks/wordpress'
 cookbook 'chef-newrelic-sysmond', github: 'phlipper/chef-newrelic-sysmond'
+cookbook 'annoyances-cookbook', github: 'mattray/annoyances-cookbook'
