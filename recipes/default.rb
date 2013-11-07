@@ -1,6 +1,6 @@
 # installs wordpress
 
-include_recipe 'annoyances-cookbook::ubuntu'
+include_recipe 'annoyances::ubuntu'
 include_recipe 'shlomo-wordpress'
 package "php5-curl" # W3TC needs this
 package 'php5-memcached'

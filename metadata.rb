@@ -13,4 +13,4 @@ supports "ubuntu"
 depends 'shlomo-wordpress', "= 0.1.0"
 depends 'shlomo-newrelic', "= 0.1.0"
 depends 'apache2', '= 0.9'
-depends 'annoyances-cookbook', ">= 0.4.1"
+depends 'annoyances', ">= 0.4.1"

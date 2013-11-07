@@ -10,5 +10,5 @@ cookbook 'shlomo-wordpress', github: 'shlomoswidler/shlomo-wordpress'
 cookbook 'shlomo-newrelic', github: 'shlomoswidler/shlomo-newrelic'
 
 cookbook 'wordpress', github: 'opscode-cookbooks/wordpress'
-cookbook 'chef-newrelic-sysmond', github: 'phlipper/chef-newrelic-sysmond'
-cookbook 'annoyances-cookbook', github: 'mattray/annoyances-cookbook'
+cookbook 'newrelic-sysmond', github: 'phlipper/chef-newrelic-sysmond'
+cookbook 'annoyances', github: 'mattray/annoyances-cookbook'
