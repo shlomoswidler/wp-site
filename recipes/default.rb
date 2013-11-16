@@ -1,5 +1,5 @@
 # installs wordpress
 
-include_recipe 'prepare_environment'
+include_recipe 'wp-site::prepare_environment'
 
-include_recipe 'deploy_wordpress'
+include_recipe 'wp-site::deploy_wordpress'
