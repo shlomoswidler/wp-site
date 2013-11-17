@@ -49,7 +49,7 @@ include_recipe "apache2::mod_deflate"
 include_recipe "apache2::mod_headers"
 include_recipe "apache2::mod_expires"
 include_recipe "apache2::mod_rewrite"
-include_recipe "apache2::mod_php5_apache"
+include_recipe "apache2::mod_php5"
 
 include_recipe 'shlomo-newrelic'
 include_recipe 'shlomo-newrelic::php'
