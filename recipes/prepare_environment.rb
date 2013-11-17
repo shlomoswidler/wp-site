@@ -21,6 +21,10 @@ end
   end
 end
 
+execute "apt-get update" do
+  action :nothing
+end.run_action(:run)
+
 include_recipe "mysql::client"
 
 pkg = value_for_platform(
