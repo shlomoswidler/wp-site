@@ -37,8 +37,6 @@ end
 include_recipe "apache2::default"
 include_recipe "apache2::mod_php5"
 include_recipe "apache2::mod_ssl"
-include_recipe "apache2::mod_fcgid"
-package 'php5-fpm'
 
 # W3TC needs these
 package "php5-curl" 
