@@ -58,3 +58,7 @@ include_recipe "apache2::mod_php5"
 include_recipe 'shlomo-newrelic'
 include_recipe 'shlomo-newrelic::php'
 
+package 'php5-fpm' do
+  action :purge
+  ignore_failure true
+end
