@@ -44,7 +44,7 @@ include_recipe "apache2::mod_ssl"
 package 'php5-gd'
 package 'php5-imagick'
 package 'zip'
-pachage 'postfix'
+package 'postfix'
 
 # W3TC needs these
 package "php5-curl" 
