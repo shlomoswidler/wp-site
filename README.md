@@ -37,7 +37,7 @@ do this:
 
     rm -rf cookbook* Berksfile.lock
 
-Then continue with the `berks install...` command above.
+Then continue with the `berks vendor cookbooks` command above.
 
 [1]: http://berkshelf.com/
 
