@@ -11,5 +11,5 @@ recipe 'default', "Install/Configure wp-site"
 supports "ubuntu"
 
 depends 'shlomo-wordpress', "= 0.1.0"
-depends 'shlomo-newrelic', "= 0.1.0"
+depends 'shlomo-newrelic', "= 0.2.0"
 depends 'apache2', '>= 1.0'
