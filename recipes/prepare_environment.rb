@@ -60,6 +60,7 @@ include_recipe "apache2::mod_php5"
 include_recipe 'shlomo-newrelic'
 include_recipe 'shlomo-newrelic::php'
 include_recipe 'shlomo-newrelic::meetme-plugin'
+include_recipe 'newrelic_plugins::aws_cloudwatch'
 
 package 'php5-fpm' do
   action :purge
