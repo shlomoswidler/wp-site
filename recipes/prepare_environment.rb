@@ -60,6 +60,7 @@ include_recipe "apache2::mod_php5"
 include_recipe 'shlomo-newrelic'
 include_recipe 'shlomo-newrelic::php'
 include_recipe 'shlomo-newrelic::meetme-plugin'
+package 'ruby1.9.3' # for the upcoming newrelic plugin. It's written in Ruby.
 include_recipe 'newrelic_plugins::aws_cloudwatch'
 
 package 'php5-fpm' do
