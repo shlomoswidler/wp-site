@@ -13,4 +13,3 @@ supports "ubuntu"
 depends 'shlomo-wordpress', "= 0.1.0"
 depends 'shlomo-newrelic', "= 0.2.0"
 depends 'apache2', '>= 1.0'
-depends 'newrelic_plugins', '>= 1.0.1'
