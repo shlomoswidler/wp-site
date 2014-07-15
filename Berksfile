@@ -10,3 +10,4 @@ cookbook 'shlomo-wordpress', github: 'shlomoswidler/shlomo-wordpress'
 cookbook 'shlomo-newrelic', github: 'shlomoswidler/shlomo-newrelic'
 
 cookbook 'newrelic-sysmond', github: 'phlipper/chef-newrelic-sysmond'
+cookbook 'newrelic_plugins', github: 'newrelic-platform/newrelic_plugins_chef'
