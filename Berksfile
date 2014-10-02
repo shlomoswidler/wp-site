@@ -2,8 +2,8 @@ source 'https://api.berkshelf.com'
 
 metadata
 
-cookbook 'apache2', group: :opsworks_builtin, github: 'aws/opsworks-cookbooks', branch: 'master-chef-11.4', rel: 'apache2'
-cookbook 'mysql', group: :opsworks_builtin, github: 'aws/opsworks-cookbooks', branch: 'master-chef-11.4', rel: 'mysql'
+cookbook 'apache2', group: :opsworks_builtin, github: 'aws/opsworks-cookbooks', branch: 'release-chef-11.4', rel: 'apache2'
+cookbook 'mysql', group: :opsworks_builtin, github: 'aws/opsworks-cookbooks', branch: 'release-chef-11.4', rel: 'mysql'
 
 cookbook 'awscli', github: 'shlomoswidler/awscli'
 cookbook 'shlomo-wordpress', github: 'shlomoswidler/shlomo-wordpress'
