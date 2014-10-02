@@ -39,6 +39,11 @@ package pkg do
 end
 
 include_recipe "apache2::default"
+
+apache_site '000-default' do
+  enable false
+end
+
 include_recipe "apache2::mod_php5"
 include_recipe "apache2::mod_ssl"
 package 'php5-gd'
